@@ -1,6 +1,8 @@
 # regex-dictionary
 Search a dictionary of words from the terminal using regular expressions
 
+Requires Python3 and a modern terminal emulator that supports hyperlinks. Each result will link to an online dictionary defining the word unless you set a blank value for the argument `-s`.
+
 Quickly install somewhere on your $PATH (replace `~/.local/bin` with another location on your $PATH if necessary):
 
     cp dict.py ~/.local/bin/dict
