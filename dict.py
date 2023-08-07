@@ -11,7 +11,8 @@ import re
 
 DEFAULT_DICT = '/usr/share/dict/words'
 
-DEFAULT_ONLINE_DICT = 'https://www.dictionary.com/browse/%s'
+#DEFAULT_ONLINE_DICT = 'https://www.dictionary.com/browse/%s'
+DEFAULT_ONLINE_DICT = 'https://www.oed.com/search/dictionary/?scope=Entries&q=%s'
 
 BOLD  = "\033[1m"
 RED   = "\033[1;31m"
